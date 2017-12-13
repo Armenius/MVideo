@@ -164,8 +164,13 @@ public class FullscreenActivity extends AppCompatActivity {
 
     public void onConnectClick(View view)
     {
-        //startActivity(this, new Intent(this, MainActivity.class));
-        // выводим сообщение
-//        Toast.makeText(this, "Зачем вы нажали?", Toast.LENGTH_SHORT).show();
+        switch (view.getId()){
+            case R.id.dummy_button:
+                Intent intent = new Intent(this, MainActivity.class);
+                startActivity(intent);
+                break;
+                default:
+                    break;
+        }
     }
 }

@@ -6,4 +6,5 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="connect">Connect</string>
     <string name="mvideo">mVideo</string>
+    <string name="title_activity_start">StartActivity</string>
 </resources>
